@@ -1,0 +1,279 @@
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    header {
+        width: 1440px;
+        height: 70px;
+        margin-left: 140px;
+        margin-right: 140px;
+        display: inline-flex;
+        text-decoration: none;
+    }
+    
+    .top0 {
+        position: absolute;
+        top: 15px;
+        bottom: 15px;
+        left: 140px;
+    }
+    
+    a {
+        /*все ссылки тут*/
+        text-decoration: inherit;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        color: black 50%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17.07px;
+    }
+    /*ЭТОТ УЧАСТОК КАСАЕТСЯ НАДПИСЕЙ В ШАПКЕ*/
+    
+    li {
+        list-style: none;
+    }
+    
+    .droptop2 {
+        position: absolute;
+        right: 773px;
+        top: 24px;
+        display: block;
+    }
+    
+    .droptop5 {
+        position: absolute;
+        right: 463px;
+        top: 24px;
+        display: block;
+    }
+    
+    .dropdown {
+        display: none;
+        text-align: right;
+    }
+    
+    .droptop2:hover .dropdown {
+        display: block;
+    }
+    
+    .droptop5:hover .dropdown {
+        display: block;
+    }
+    
+    .top1 {
+        position: absolute;
+        top: 26px;
+        bottom: 26px;
+        right: 867px;
+    }
+    
+    .top3 {
+        position: absolute;
+        right: 681px;
+        top: 26px;
+        bottom: 26px;
+    }
+    
+    .top4 {
+        position: absolute;
+        right: 599px;
+        top: 26px;
+        bottom: 26px;
+    }
+    /*BUTTONS*/
+    
+    .b1 {
+        height: 34px;
+        border-radius: 32px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14, 63px;
+        position: absolute;
+        top: 18px;
+        bottom: 18px;
+        width: 87px;
+        border-width: 2px;
+        background-image: linear-gradient( #BC9CFF, #8BA4F9);
+        color: white;
+        border-color: white;
+        mix-blend-mode: multiply;
+        right: 356px;
+    }
+    
+    .b2 {
+        height: 34px;
+        border-radius: 32px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14, 63px;
+        position: absolute;
+        top: 18px;
+        bottom: 18px;
+        right: 140px;
+        width: 196px;
+        color: linear-gradient(#BC9CFF, #8BA4F9);
+        background-color: #FFFFFF;
+        border-color: linear-gradient(#BC9CFF, #8BA4F9);
+    }
+    
+    .b3 {
+        height: 44px;
+        width: 320px;
+        border-radius: 32px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14, 63px;
+        border-width: 2px;
+        background-image: linear-gradient(to bottom, #BC9CFF, #8BA4F9);
+        color: white;
+        border-color: white;
+    }
+    /*ЭТОТ УЧАСТОК КАСАЕТСЯ MAIN*/
+    
+    main {
+        margin: 0px;
+    }
+    
+    .scrolling-wrapper {
+        width: 100%;
+        display: block;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        white-space: nowrap;
+    }
+    
+    .card {
+        width: 100%;
+        display: block;
+        overflow: scroll;
+    }
+    
+    .formcard1 {
+        display: grid;
+        grid-template-areas: "formcard11" "formblock1 formblock1a" "formblock2" ". b3 .";
+        background: #FFFFFF;
+        width: 380px;
+        height: 374px;
+        margin-left: 140px;
+        margin-top: 140px;
+        border: 1px black 50%;
+        border-radius: 4px;
+    }
+    
+    .formblock1 {
+        display: block;
+        position: relative;
+        left: 30px;
+    }
+    
+    .formblock1a {
+        display: block;
+        position: relative;
+        left: 200px;
+        bottom: 189px;
+    }
+    
+    .formblock2 {
+        display: block;
+        position: relative;
+        left: 30px;
+    }
+    
+    .formcard1-text {
+        display: block;
+        width: 150px;
+        height: 65px;
+    }
+    
+    .formcard11 {
+        display: block;
+        position: relative;
+        left: 30px;
+        word-wrap: break-word;
+        width: 320px;
+        height: 59px;
+    }
+    
+    .lowerblockcard1 {
+        display: block;
+        word-wrap: break-word;
+        width: 297px;
+        height: 48px;
+        margin-left: 1009px;
+        margin-top: 834px;
+        text-align: right;
+    }
+    /*ТУТ НАЧИНАЕТСЯ ПОДВАЛ*/
+    
+    footer {
+        background-color: white;
+        display: grid;
+        grid-template-rows: 372px, 70px;
+        width: 1440px;
+        height: 443px;
+        top: 1427px;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    
+    .ftrlogo {
+        /*контейнер с логотипом в подвале*/
+        display: block;
+    }
+    
+    .ftr {
+        /*часть с сеткой*/
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
+    
+    .lowerftr {
+        /*самая нижняя полоска с текстом*/
+        display: inline-flex;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-top-style: solid;
+        border-top: 1px, black 50%;
+    }
+    
+    .lowerftrsigns {
+        /*три значка внизу*/
+        display: inline;
+        position: absolute;
+        margin-right: 140px;
+        margin-left: 1188px;
+    }
+    
+    .ftrtext1 {
+        /* блок "Бронирование номеров в лучшем отеле..."*/
+        display: block;
+        Width: 260px;
+        Height: 72px;
+        Top: 1060px;
+        Left: 140px;
+    }
+    
+    .ftrtext2 {
+        /* блок "Получайте специальные предложения и новости сервиса..."*/
+        display: block;
+        Width: 260px;
+        Height: 48px;
+        Top: 1040px;
+        Left: 1040px;
+    }
+    /*кнопка на форме отправки e-mail*/
+    
+    .ftrbtn {
+        Width: 44px;
+        Height: 44px;
+        Top: 1108px;
+        Left: 1256px;
+    }
